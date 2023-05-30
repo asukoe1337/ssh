@@ -14,7 +14,7 @@ $ OpenBSD: sshd_config,v 1.103 2018/04/09 20:41:22 tj Exp $
 # SELinux about this change.
 # semanage port -a -t ssh_port_t -p tcp #PORTNUMBER
 #
-Port 222
+Port 22
 #AddressFamily any
 #ListenAddress 0.0.0.0
 #ListenAddress ::
